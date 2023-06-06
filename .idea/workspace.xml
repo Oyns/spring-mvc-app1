@@ -9,12 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0395468-06c1-42fc-9b8f-683c6a9d2dd8" name="Changes" comment="add HelloController">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/oyns/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/oyns/springcourse/config/SpringConfig.java" afterDir="false" />
+    <list default="true" id="e0395468-06c1-42fc-9b8f-683c6a9d2dd8" name="Changes" comment="add java config files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/oyns/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/oyns/springcourse/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/oyns/springcourse/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -160,7 +165,7 @@
       <workItem from="1685795602141" duration="368000" />
       <workItem from="1685795982041" duration="2435000" />
       <workItem from="1685969273895" duration="227000" />
-      <workItem from="1686049841299" duration="1329000" />
+      <workItem from="1686049841299" duration="3101000" />
     </task>
     <task id="LOCAL-00001" summary="add HelloController">
       <created>1685797772152</created>
@@ -169,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685797772152</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add java config files">
+      <created>1686051349805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686051349805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +200,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add HelloController" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HelloController" />
+    <MESSAGE value="add java config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add java config files" />
   </component>
 </project>
